@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import MehradJam from "./Songs/MehradJam-Didi.mp3";
-import Hosein from "./Songs/Ho3ein-2ja.mp3";
+
 import CallMeNow from "./Songs/CallMeNow.mp3";
 import AydaSonDurak from "./Songs/AydaSonDurak.mp3";
 import RaghebShalat from "./Songs/RaghebShalat.mp3";
@@ -20,7 +20,7 @@ const ListSong = [
     cover:
       "https://cdn-tehran.wisgoon.com/dlir-s3/500x462_1574612109680659.jpeg",
     artist: "Ho3ein",
-    audio: [Hosein],
+    audio: [CallMeNow],
     color: ["#000", "#fff"],
     id: uuidv4(),
     active: false,
